@@ -9,36 +9,37 @@ public class Calculater {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter number first");
-		 int x = sc.nextInt();
+		 double x = sc.nextDouble();
 		 
 		 System.out.println("Enter the no second");
-		 int y = sc.nextInt();
+		 double y = sc.nextDouble();
 		 
 		 System.out.println("press temp= : for desired operation");
 		 int temp = sc.nextInt();
 		 
 		 if(temp==1) {
 			 
-			 int z1 = x+y;
+			 double z1 = x+y;
 			 System.out.println("Addition of x+y = " + z1);
 		 }
 		 
 		 else if(temp==2) {
 			 
-			 int z2 = x-y;
+			 double z2 = x-y;
 			 System.out.println("Substraction of x-y = " + z2);
+			
 			 
 		 }
 		 
 		 else if(temp==3) {
 			 
-			 int z3 = x*y;
+			 double z3 = x*y;
 			 System.out.println("Multiplication of x*y = " + z3);
 		 }
 		 
 		 else if(temp==4) {
 			 
-			 int z4 = x/y;
+			 double z4 = x/y;
 			 System.out.println("Division of x/y = " + z4);
 		 }
 		 
