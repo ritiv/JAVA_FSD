@@ -26,6 +26,7 @@ public class Map_java {
 	      }
 	      
 	      TreeMap<Integer,String> map3 = new TreeMap<Integer,String>();    
+	      
 	      map3.put(05,"Artik");    
 	      map3.put(06,"Car");    
 	      map3.put(07,"Cat");       
