@@ -33,7 +33,7 @@ class Email_velidation {
                 	
                     if(Search.equals(arr[i])) 
                     {
-                        System.out.println("email ID " + Search + " status: Valid");
+                        System.out.println("email ID:  " + Search + " status: Valid");
                         
                         break;
                         
