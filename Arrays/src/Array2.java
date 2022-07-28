@@ -37,16 +37,16 @@ public class Array2 {
 			
 			for(int j = 0; j<colm; j++) {
 				
-				if(arr[i][j] == x) {
+				if(arr[i][j].equals(x)) {
 					
 					System.out.println("valid string ");
 					
 				}
-				System.out.println(arr[i][j] + " ");
 				
-				
-				
+				System.out.print(arr[i][j] + " ");
 			}
+			
+			
 			
 			System.out.println();
 			
